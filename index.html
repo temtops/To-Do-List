@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="todo.css">
+    <title>TO-DO List</title>
+</head>
+<body>
+    <div class="container border body mt-5">
+        <h1 class="mt-5"><span class="color">T</span>O <span class="color">D</span>O List</h1>
+        <div class="add-new-task mt-5" id="add-new-task">
+            <form id="new-task-form">
+                <input type="text" placeholder="Add a new task" id="new-task" class="he"/>
+                <input type="submit"  id="save-task" class="" value="Add"/>
+            </form>
+        </div>
+        <h1 class="mt-5">Tasks</h1>
+
+         <div class="added-tasks mt-5 mb-5" id="added-tasks">
+            <!-- <div id="added-task-form" class="added-task-form">
+                <input type="text" readonly class="form-control new" id="task" value="I want to cook noodles">
+                <div class="actions">
+                    <button class="btn btn1" id="edit-task">Edit</button>
+                    <button class="btn btn2" id="remove-task">X</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>

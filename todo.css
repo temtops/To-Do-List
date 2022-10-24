@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgba(184, 120, 120, 0.63),rgba(255, 255, 0, 0.383));
+}
+.body{
+    background-color: rgb(15, 14, 14);
+    width:40%;
+    border-radius: 10px 10px 5px 5px;
+    box-shadow: inset 5px 2px 10px red;
+}
+.color{
+    color: lightpink;
+    text-shadow: 1px 2px 3px lightblue;
+}
+h1{
+    color: rgb(99, 99, 98);
+}
+.add-new-task form{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#new-task{
+    width:80%;
+    border-radius: 10px;
+    min-height: 3rem;
+    background-color: black;
+    color: lightpink;
+    font-size: 16px;
+    padding: 0 5px;
+}
+#new-task::placeholder{
+    color: lightpink;
+}
+#save-task{
+    width:10%;
+    min-height: 3rem;
+    border-radius: 10px;
+    font-size: 16px;
+    color: lightblue;
+
+}
+.added-tasks .added-task-form{
+    display: flex;
+    justify-content:space-between;
+    color:white;
+    margin: 10px;
+}
+.added-tasks .added-task-form .new{
+    width:70%;
+    color: lightsalmon;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    min-height: 3rem;
+    border: none;
+}
+.added-tasks .added-task-form .actions{
+    display: flex;
+    width:25%;
+    justify-content: space-between;
+}
+.new::placeholder{
+    color: lightsalmon;
+}
+.added-tasks .added-task-form .actions .btn1{
+    min-width:48%;
+    text-align: center;
+    color: burlywood;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.added-tasks .added-task-form .actions .btn2{
+    min-width:48%;
+    text-align:center;
+    color: rgb(167, 1, 1);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.added-tasks .added-task-form .actions .btn1:hover{
+    border: 1px solid burlywood;
+    border-radius: 10px;
+}
+.added-tasks .added-task-form .actions .btn2:hover{
+    border: 1px solid rgb(167, 1, 1);
+    border-radius: 10px;
+}
+.added-tasks .added-task-form #task:not(:read-only){
+    color:aquamarine
+}
+.added-task-form{
+}
